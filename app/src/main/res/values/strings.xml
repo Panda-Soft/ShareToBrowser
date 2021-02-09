@@ -3,6 +3,7 @@
     <string name="share_name">Open in Browser</string>
     <string name="set_default_browser">Set default browser</string>
     <string name="more_apps">Check out my other apps!</string>
+    <string name="source_code">Source code on GitHub</string>
 
     <string name="description">This app will allow you to open any link in your default browser, simply by pressing Share To button in any app and choosing "Open in browser".</string>
 </resources>

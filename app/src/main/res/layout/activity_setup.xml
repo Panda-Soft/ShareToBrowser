@@ -43,7 +43,12 @@
             android:layout_height="wrap_content"
             android:onClick="setDefaultBrowser"
             android:text="@string/set_default_browser" />
-
+        <Button
+            android:id="@+id/coffee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="myDonation"
+            android:text="@string/source_code" />
         <Button
             android:id="@+id/moreApps"
             android:layout_width="match_parent"

@@ -40,4 +40,10 @@ public class Setup extends AppCompatActivity {
     }
 
 
+    public void myDonation(View v) {
+        Uri uri = Uri.parse("https://github.com/Panda-Soft");
+        Intent i = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(i);
+
+    }
 }

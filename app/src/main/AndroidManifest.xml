@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="p4nd4.sharetobrowser">
 
+
     <application
         android:allowBackup="true"
         android:fullBackupContent="true"
@@ -14,20 +15,22 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ShareToBrowser"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:label="@string/share_name">
-
+        <activity
+            android:name=".ShareToBrowser"
+            android:label="@string/share_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
+
                 <category android:name="android.intent.category.DEFAULT" />
+
                 <data android:mimeType="text/plain" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
